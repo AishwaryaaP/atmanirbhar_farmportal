@@ -26,4 +26,4 @@
 Project is: _in progress_
 
 ## Contact
-Created by [@_kohinoor_aish__] (https://www.linkedin.com/in/aishwarya-phirke-b3a50b145/)- feel free to contact me!
+Created by [@_kohinoor_aish__](https://www.linkedin.com/in/aishwarya-phirke-b3a50b145/)- feel free to contact me!
