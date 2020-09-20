@@ -11,10 +11,10 @@
 * Maps
 
 ## Features
-### List of features ready:
+###### List of features ready:
 * Awesome feature 1: We have just started:)
 
-### To-do list:
+###### To-do list:
 * Farming news API
 * Google maps API
 * Dataset to be acquired
