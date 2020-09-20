@@ -11,11 +11,10 @@
 * Maps
 
 ## Features
-Write features ready and TODO list for future development
-List of features ready and TODOs for future development
+### List of features ready:
 * Awesome feature 1: We have just started:)
 
-To-do list:
+### To-do list:
 * Farming news API
 * Google maps API
 * Dataset to be acquired
@@ -27,4 +26,4 @@ To-do list:
 Project is: _in progress_
 
 ## Contact
-Created by [@AishwaryaaP] - feel free to contact me!
+Created by [@_kohinoor_aish__] (https://www.linkedin.com/in/aishwarya-phirke-b3a50b145/)- feel free to contact me!
