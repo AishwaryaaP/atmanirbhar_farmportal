@@ -11,7 +11,7 @@
 * [Contact](#contact)
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
+![](./image1.jpg)
 
 ## Technologies
 * HTML, CSS, Bootstrap
