@@ -4,15 +4,23 @@
   area for that crop production in the specified farm.
 
 ## Table of contents
+* [Screenshots](#screenshots)
+* [Technologies](#technologies)
+* [Features](#features)
+* [Status](#status)
+* [Contact](#contact)
+
+## Screenshots
+![Example screenshot](./img/screenshot.png)
+
+## Features
+###### List of features ready: 
+We have just started:)
 * Crop recommender system
 * Ideas
 * News
 * Weather reports
 * Maps
-
-## Features
-###### List of features ready:
-* Awesome feature 1: We have just started:)
 
 ###### To-do list:
 * Farming news API
