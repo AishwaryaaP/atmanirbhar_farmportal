@@ -13,16 +13,18 @@
 ## Screenshots
 ![Example screenshot](./img/screenshot.png)
 
+## Technologies
+* HTML, CSS, Bootstrap
+* Angular JS, React Native, React JS, Flutter
+
 ## Features
-###### List of features ready: 
-We have just started:)
+#### List of features ready: 
 * Crop recommender system
-* Ideas
 * News
 * Weather reports
 * Maps
 
-###### To-do list:
+#### To-do list:
 * Farming news API
 * Google maps API
 * Dataset to be acquired
