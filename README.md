@@ -29,8 +29,8 @@
 * Google maps API
 * Dataset to be acquired
 * User Crop recommendation
-* Reports
-* Inspirational DIYs
+* Reports of suggested systems
+* Inspirational DIYs for urban Terrace Farming
 
 ## Status
 Project is: _in progress_
