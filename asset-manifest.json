@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/atmanirbhar_farmportal/static/css/main.5f361e03.chunk.css",
+    "main.js": "/atmanirbhar_farmportal/static/js/main.170e9908.chunk.js",
+    "main.js.map": "/atmanirbhar_farmportal/static/js/main.170e9908.chunk.js.map",
+    "runtime-main.js": "/atmanirbhar_farmportal/static/js/runtime-main.bacb1de4.js",
+    "runtime-main.js.map": "/atmanirbhar_farmportal/static/js/runtime-main.bacb1de4.js.map",
+    "static/js/2.c14eb6cd.chunk.js": "/atmanirbhar_farmportal/static/js/2.c14eb6cd.chunk.js",
+    "static/js/2.c14eb6cd.chunk.js.map": "/atmanirbhar_farmportal/static/js/2.c14eb6cd.chunk.js.map",
+    "index.html": "/atmanirbhar_farmportal/index.html",
+    "precache-manifest.3395af3cf2bdc9597344c8f3044b0581.js": "/atmanirbhar_farmportal/precache-manifest.3395af3cf2bdc9597344c8f3044b0581.js",
+    "service-worker.js": "/atmanirbhar_farmportal/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/atmanirbhar_farmportal/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.c14eb6cd.chunk.js.LICENSE.txt": "/atmanirbhar_farmportal/static/js/2.c14eb6cd.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/atmanirbhar_farmportal/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bacb1de4.js",
+    "static/js/2.c14eb6cd.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.170e9908.chunk.js"
+  ]
+}
