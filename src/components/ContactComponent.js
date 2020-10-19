@@ -71,6 +71,9 @@ class Contact extends Component{
 
     render(){
         const errors=this.validate(this.state.firstname,this.state.lastname,this.state.telnum,this.state.email);
+        const styles= {
+    color: 'black',
+};
     return(
         <div className="container">
         <div className="row">
@@ -85,9 +88,9 @@ class Contact extends Component{
                 <div className="col-12">
                 <h3>Location Information</h3>
                 </div>
-                <div className="col-12 col-sm-4 offset-sm-1">
+                <div className="col-12 col-sm-4 offset-sm-1" >
                         <h5>Our Address</h5>
-                        <address>
+                        <address style={styles}>
                       666,Upper IndiraNagar,<br />
                       Bibwewadi ,Pune<br />
                       Maharashtra<br />
