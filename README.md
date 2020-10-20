@@ -67,7 +67,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-=======
+
 # Atmanirbhar Farm Portal
 > Description!
 > A unique portal for farmers that suggests crops and also divides
@@ -107,4 +107,7 @@ Project is: _in progress_
 
 ## Contact
 Created by [@_kohinoor_aish__](https://www.linkedin.com/in/aishwarya-phirke-b3a50b145/)- feel free to contact me!
+
+
+
 >>>>>>> c9022e3bde4a860b18ec67f784e62fecb552dd03
