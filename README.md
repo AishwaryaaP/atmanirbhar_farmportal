@@ -78,8 +78,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 * [Status](#status)
 * [Contributors](#contact)
 
-
-
 ## Technologies
 * HTML, CSS, Bootstrap
 * Angular JS, React Native, React JS
@@ -104,4 +102,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 Project is: _in progress_
 
 ## Contributors
-Rutuja Gholap, Tejinderpal Singh, Aishwarya Phirke,Atharva Patrudkar
+Aishwarya Phirke
+Rutuja Gholap
+Tejinderpal Singh
+Atharva Patrudkar
