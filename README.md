@@ -42,9 +42,7 @@ Tejinderpal Singh
 Atharva Patrudkar
 
 ## Image
-[image](image1.jpg)
-
-![](./image1.jpg)
+[](./image1.jpg)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
