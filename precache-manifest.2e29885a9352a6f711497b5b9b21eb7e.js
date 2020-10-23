@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6b6c1a98d9d09febfc6ec22a8a87bdb2",
+    "revision": "4af934526c3ecad30f31cda61ff8b04a",
     "url": "/atmanirbhar_farmportal/index.html"
   },
   {
-    "revision": "b974395ac5a5a9cf7fa8",
+    "revision": "51dd93780bfa2696f3fc",
     "url": "/atmanirbhar_farmportal/static/css/2.c84e98f6.chunk.css"
   },
   {
-    "revision": "30444d72ce91d0026685",
+    "revision": "f5856ca34fb26d1fe7fa",
     "url": "/atmanirbhar_farmportal/static/css/main.8ec667ef.chunk.css"
   },
   {
-    "revision": "b974395ac5a5a9cf7fa8",
-    "url": "/atmanirbhar_farmportal/static/js/2.0317b2fa.chunk.js"
+    "revision": "51dd93780bfa2696f3fc",
+    "url": "/atmanirbhar_farmportal/static/js/2.259e3b87.chunk.js"
   },
   {
     "revision": "3a5359d431b8190dc2f36e4703f39768",
-    "url": "/atmanirbhar_farmportal/static/js/2.0317b2fa.chunk.js.LICENSE.txt"
+    "url": "/atmanirbhar_farmportal/static/js/2.259e3b87.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "30444d72ce91d0026685",
-    "url": "/atmanirbhar_farmportal/static/js/main.b41202be.chunk.js"
+    "revision": "f5856ca34fb26d1fe7fa",
+    "url": "/atmanirbhar_farmportal/static/js/main.7f34630e.chunk.js"
   },
   {
     "revision": "4396cf456a9090b0d777",
