@@ -1,0 +1,65 @@
+/*1*/
+/* CSS HEX */
+--black: #000000ff;
+--morning-blue: #839788ff;
+--champagne: #eee0cbff;
+--grullo: #baa898ff;
+--beau-blue: #bfd7eaff;
+
+/* CSS HSL */
+--black: hsla(0, 0%, 0%, 1);
+--morning-blue: hsla(135, 9%, 55%, 1);
+--champagne: hsla(36, 51%, 86%, 1);
+--grullo: hsla(28, 20%, 66%, 1);
+--beau-blue: hsla(207, 51%, 83%, 1);
+
+/* SCSS RGB */
+$black: rgba(0, 0, 0, 1);
+$morning-blue: rgba(131, 151, 136, 1);
+$champagne: rgba(238, 224, 203, 1);
+$grullo: rgba(186, 168, 152, 1);
+$beau-blue: rgba(191, 215, 234, 1);
+
+/*2*/
+/* CSS HEX */
+--eggshell: #faf3ddff;
+--laurel-green: #c8d5b9ff;
+--cambridge-blue: #8fc0a9ff;
+--green-sheen: #68b0abff;
+--black-coral: #696d7dff;
+
+/* CSS HSL */
+--eggshell: hsla(46, 74%, 92%, 1);
+--laurel-green: hsla(88, 25%, 78%, 1);
+--cambridge-blue: hsla(152, 28%, 66%, 1);
+--green-sheen: hsla(176, 31%, 55%, 1);
+--black-coral: hsla(228, 9%, 45%, 1);
+
+/* SCSS RGB */
+$eggshell: rgba(250, 243, 221, 1);
+$laurel-green: rgba(200, 213, 185, 1);
+$cambridge-blue: rgba(143, 192, 169, 1);
+$green-sheen: rgba(104, 176, 171, 1);
+$black-coral: rgba(105, 109, 125, 1);
+
+/*3*/
+/* CSS HEX */
+--lapis-lazuli: #336699ff;
+--dark-sky-blue: #86bbd8ff;
+--charcoal: #2f4858ff;
+--granny-smith-apple: #9ee493ff;
+--nyanza: #daf7dcff;
+
+/* CSS HSL */
+--lapis-lazuli: hsla(210, 50%, 40%, 1);
+--dark-sky-blue: hsla(201, 51%, 69%, 1);
+--charcoal: hsla(203, 30%, 26%, 1);
+--granny-smith-apple: hsla(112, 60%, 74%, 1);
+--nyanza: hsla(124, 64%, 91%, 1);
+
+/* SCSS RGB */
+$lapis-lazuli: rgba(51, 102, 153, 1);
+$dark-sky-blue: rgba(134, 187, 216, 1);
+$charcoal: rgba(47, 72, 88, 1);
+$granny-smith-apple: rgba(158, 228, 147, 1);
+$nyanza: rgba(218, 247, 220, 1);
