@@ -1,7 +1,6 @@
 # Atmanirbhar Farm Portal
-> Description!
-> A unique portal for farmers that suggests crops and also divides
-  area for that crop production in the specified farm.
+> Description: 
+> A unique portal for farmers that suggests crops and also divides the area for that crop production in the specified farm. This Farm Portal helps farmers get updates regarding all the agriculture related news and also sssssssshows the weather conditions of a particular area to which the farmer gets crop sugeestion accordingly. It also enables the farmer to track the crop right from sowing to harvesting season. Local market rate related details and government rulebooks are also an addon to this portal.
 
 ## Table of contents
 * [Deployed Project](#deployed_project_link)
