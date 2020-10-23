@@ -1,6 +1,7 @@
 # Atmanirbhar Farm Portal
 > Description:  
-> A unique portal for farmers that suggests crops and also divides the area for that crop production in the specified farm. This Farm Portal helps farmers get updates regarding all the agriculture related news and also sssssssshows the weather conditions of a particular area to which the farmer gets crop sugeestion accordingly. It also enables the farmer to track the crop right from sowing to harvesting season. Local market rate related details and government rulebooks are also an addon to this portal.
+> A unique portal for farmers that suggests crops and also divides the area for that crop production in the specified farm. This Farm Portal helps farmers get updates regarding all the agriculture related news and also shows the weather conditions of a particular area to which the farmer gets crop sugeestion accordingly. It also enables the farmer to track the crop right from sowing to harvesting season. Local market rate related details and government rulebooks are also an addon to this portal.
+Keywords: Crop-recommender, Crop growth tracker, MachineLearning, React, Progressive Web App, API 
 
 ## Table of contents
 * [Deployed Project](#deployed_project_link)
