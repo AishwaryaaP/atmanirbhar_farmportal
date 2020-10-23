@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -74,18 +73,16 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
   area for that crop production in the specified farm.
 
 ## Table of contents
-* [Screenshots](#screenshots)
 * [Technologies](#technologies)
 * [Features](#features)
 * [Status](#status)
-* [Contact](#contact)
+* [Contributors](#contact)
 
-## Screenshots
-![](./image1.jpg)
+
 
 ## Technologies
 * HTML, CSS, Bootstrap
-* Angular JS, React Native, React JS, Flutter
+* Angular JS, React Native, React JS
 
 ## Features
 #### List of features ready: 
@@ -97,6 +94,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 #### To-do list:
 * Farming news API
 * Google maps API
+* Google Translate API
 * Dataset to be acquired
 * User Crop recommendation
 * Reports of suggested systems
@@ -105,9 +103,5 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 ## Status
 Project is: _in progress_
 
-## Contact
-Created by [@_kohinoor_aish__](https://www.linkedin.com/in/aishwarya-phirke-b3a50b145/)- feel free to contact me!
-
-
-
->>>>>>> c9022e3bde4a860b18ec67f784e62fecb552dd03
+## Contributors
+Rutuja Gholap, Tejinderpal Singh, Aishwarya Phirke,Atharva Patrudkar
