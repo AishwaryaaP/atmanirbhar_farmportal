@@ -1,27 +1,27 @@
 {
   "files": {
     "main.css": "/atmanirbhar_farmportal/static/css/main.7db62e68.chunk.css",
-    "main.js": "/atmanirbhar_farmportal/static/js/main.f7b9d103.chunk.js",
-    "main.js.map": "/atmanirbhar_farmportal/static/js/main.f7b9d103.chunk.js.map",
+    "main.js": "/atmanirbhar_farmportal/static/js/main.8c6e6ce5.chunk.js",
+    "main.js.map": "/atmanirbhar_farmportal/static/js/main.8c6e6ce5.chunk.js.map",
     "runtime-main.js": "/atmanirbhar_farmportal/static/js/runtime-main.bacb1de4.js",
     "runtime-main.js.map": "/atmanirbhar_farmportal/static/js/runtime-main.bacb1de4.js.map",
     "static/css/2.c84e98f6.chunk.css": "/atmanirbhar_farmportal/static/css/2.c84e98f6.chunk.css",
-    "static/js/2.f789ab5a.chunk.js": "/atmanirbhar_farmportal/static/js/2.f789ab5a.chunk.js",
-    "static/js/2.f789ab5a.chunk.js.map": "/atmanirbhar_farmportal/static/js/2.f789ab5a.chunk.js.map",
+    "static/js/2.063cccb1.chunk.js": "/atmanirbhar_farmportal/static/js/2.063cccb1.chunk.js",
+    "static/js/2.063cccb1.chunk.js.map": "/atmanirbhar_farmportal/static/js/2.063cccb1.chunk.js.map",
     "index.html": "/atmanirbhar_farmportal/index.html",
-    "precache-manifest.2b96aed843ab6883624259431effecde.js": "/atmanirbhar_farmportal/precache-manifest.2b96aed843ab6883624259431effecde.js",
+    "precache-manifest.467b0050f9ee79d62bae0375cf5c2a82.js": "/atmanirbhar_farmportal/precache-manifest.467b0050f9ee79d62bae0375cf5c2a82.js",
     "service-worker.js": "/atmanirbhar_farmportal/service-worker.js",
     "static/css/2.c84e98f6.chunk.css.map": "/atmanirbhar_farmportal/static/css/2.c84e98f6.chunk.css.map",
     "static/css/main.7db62e68.chunk.css.map": "/atmanirbhar_farmportal/static/css/main.7db62e68.chunk.css.map",
-    "static/js/2.f789ab5a.chunk.js.LICENSE.txt": "/atmanirbhar_farmportal/static/js/2.f789ab5a.chunk.js.LICENSE.txt",
+    "static/js/2.063cccb1.chunk.js.LICENSE.txt": "/atmanirbhar_farmportal/static/js/2.063cccb1.chunk.js.LICENSE.txt",
     "static/media/font-awesome.css": "/atmanirbhar_farmportal/static/media/fontawesome-webfont.fee66e71.woff",
     "static/media/App.css": "/atmanirbhar_farmportal/static/media/green.e06360d0.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.bacb1de4.js",
     "static/css/2.c84e98f6.chunk.css",
-    "static/js/2.f789ab5a.chunk.js",
+    "static/js/2.063cccb1.chunk.js",
     "static/css/main.7db62e68.chunk.css",
-    "static/js/main.f7b9d103.chunk.js"
+    "static/js/main.8c6e6ce5.chunk.js"
   ]
 }
