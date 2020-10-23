@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 ## Our Deployed Project link:
-[a](https://aishwaryaap.github.io/atmanirbhar_farmportal/)
+[https://aishwaryaap.github.io/atmanirbhar_farmportal](https://aishwaryaap.github.io/atmanirbhar_farmportal)
 
 ## Available Scripts
 
