@@ -1,16 +1,17 @@
-## Our Deployed Project link:
-[https://aishwaryaap.github.io/atmanirbhar_farmportal](https://aishwaryaap.github.io/atmanirbhar_farmportal)
-
 # Atmanirbhar Farm Portal
 > Description!
 > A unique portal for farmers that suggests crops and also divides
   area for that crop production in the specified farm.
 
 ## Table of contents
+* [Deployed Project](#deployed_project_link)
 * [Technologies](#technologies)
 * [Features](#features)
 * [Status](#status)
-* [Contributors](#contact)
+* [Contributors](#contributors)
+
+## Deployed_Project_Link:
+[https://aishwaryaap.github.io/atmanirbhar_farmportal](https://aishwaryaap.github.io/atmanirbhar_farmportal)
 
 ## Technologies
 * HTML, CSS, Bootstrap
@@ -40,6 +41,9 @@ Aishwarya Phirke
 Rutuja Gholap
 Tejinderpal Singh
 Atharva Patrudkar
+
+## Image
+![](./image1.jpg)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
