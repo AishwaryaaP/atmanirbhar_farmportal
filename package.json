@@ -1,5 +1,5 @@
 {
-  "homepage": "https://aishwaryaap.github.io/atmanirbhar_farmportal/",
+  "homepage": "https://aishwaryaap.github.io/atmanirbhar_farmportal",
   "name": "farmerportal",
   "version": "0.1.0",
   "private": true,
@@ -21,7 +21,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
