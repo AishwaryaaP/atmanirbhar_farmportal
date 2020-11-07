@@ -4,17 +4,21 @@ import Footer from './FooterComponent';
 import Contact from './ContactComponent';
 import {Switch,Route,Redirect} from 'react-router-dom';
 import CarouselComponent from './CarousalComp';
+import MapContainer from './MapComponent';
 import About from './AboutUs';
 import {Row,Col} from 'reactstrap';
+import {Map,GoogleApiWrapper,Marker} from 'google-maps-react';
 class Main extends Component{
 
  render(){
 
  const HomePage=() =>{
   return (
-    <div>
-    <CarouselComponent />
-    </div>
+    <>
+    <CarouselComponent/>
+      <MapContainer/>  
+            
+    </>
     );
  }
  
