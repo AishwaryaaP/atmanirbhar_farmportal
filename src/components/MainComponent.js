@@ -7,8 +7,7 @@ import CarouselComponent from './CarousalComp';
 import MapContainer from './MapComponent';
 import About from './AboutUs';
 import Map from './MapComponent';
-import { ProSidebar, Menu, MenuItem, SubMenu } from 'react-pro-sidebar';
-import 'react-pro-sidebar/dist/css/styles.css';
+import Policy from './Policies';
 
 class Main extends Component{
 
@@ -34,7 +33,8 @@ class Main extends Component{
       <Switch>
         <Route path="/home" component={HomePage}/>
         <Route exact path="/contactus" component={Contact}/>
-        <Route exact path="/aboutus" component={About }/>}/>
+        <Route exact path="/aboutus" component={About }/>
+        <Route exact path="/policies" component={Policy}/>
         <Redirect to="/home"/>      
       </Switch>
       <Footer/>
