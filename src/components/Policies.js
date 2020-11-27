@@ -10,8 +10,8 @@ export default class Policy extends Component{
 			<div className="container">
 				<div className="row">
 				<Breadcrumb>
-                    <BreadcrumbItem><Link to="/home">Home</Link></BreadcrumbItem>
-                    <BreadcrumbItem active>Policies and Schemes</BreadcrumbItem>
+                    <BreadcrumbItem ><Link to="/home"  style={{color:'blue'}}>Home</Link></BreadcrumbItem>
+                    <BreadcrumbItem active style={{color:'red'}}>Policies and Schemes</BreadcrumbItem>
                 </Breadcrumb>
 				</div>
 			<ul>
@@ -25,8 +25,20 @@ export default class Policy extends Component{
 			<li>Dairy Entrepreneurship Development Scheme</li><a style={{color:'purple'}}></a>
 			<li> Soil Health Card Scheme</li><a style={{color:'purple'}}href=" soilhealth.dac.gov.in/">(soilhealth.dac.gov.in/)</a>
 			<li>National Mission for Sustainable Agriculture (NMSA)</li>
-			<li>Livestock insurance Scheme</li><a style={{color:'purple'}} href="https://vikaspedia.in/agriculture/agri-insurance/livestock-insurance">(https://vikaspedia.in/agriculture/agri-insurance/livestock-insurance)</a>
 			</ul>
+			<div className="container border">
+			<p style={{color:'orange','font-size':'20px'}}><strong>Video Links For the Government initiatives taken for Farmers</strong></p>
+			<iframe  src="https://www.youtube.com/embed/5c8J9cv1oTI" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<iframe  src="https://www.youtube.com/embed/xkKRb-xG8dc" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<iframe  src="https://www.youtube.com/embed/AJRuvq06mhk" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<iframe  src="https://www.youtube.com/embed/T7z3Zg4dPkI" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<iframe  src="https://www.youtube.com/embed/x1gxLD2ZEnI" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<iframe  src="https://www.youtube.com/embed/XvORzaanxt8" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<iframe  src="https://www.youtube.com/embed/Twl4--EiYSM" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<iframe  src="https://www.youtube.com/embed/QAwMPIyVkhI" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<iframe  src="https://www.youtube.com/embed/qhj6stgAH9g" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<iframe  src="https://www.youtube.com/embed/5jM7MDPEJrk" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
 			</div>
 			</>
 			);
