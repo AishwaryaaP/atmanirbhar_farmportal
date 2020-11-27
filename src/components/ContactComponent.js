@@ -78,10 +78,12 @@ class Contact extends Component{
         <div className="container">
         <div className="row">
         	  <Breadcrumb>
-            <BreadcrumbItem><Link to="/home">Home</Link></BreadcrumbItem>
-             <BreadcrumbItem active><Link to="/contactus">Contact</Link></BreadcrumbItem>
+                
+                    <BreadcrumbItem><Link to="/home">Home</Link></BreadcrumbItem>
+                    <BreadcrumbItem active>ContactUs</BreadcrumbItem>
+                </Breadcrumb>
 
-            </Breadcrumb>
+            
            </div>
             
             <div className="row row-content">

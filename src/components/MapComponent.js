@@ -295,7 +295,7 @@ const url="https://maps.googleapis.com/maps/api/js?&key="+apikey.s+"&libraries=p
 
      <AsyncMap
       googleMapURL={url}
-      
+      style={{'background-color':'green'}}
       loadingElement={
        <div className="center" style={{position: 'relative', width: '50vw', height: '100vh'}} />
       }
@@ -308,7 +308,7 @@ const url="https://maps.googleapis.com/maps/api/js?&key="+apikey.s+"&libraries=p
      />
     </div>
     } else {
-   map = <div className="center" style={{position: 'relative', width: '50vw', height: '100vh'}} />
+   map = < div className="center" style={{position: 'relative', width: '50vw', height: '100vh'}} />
   }
   return( map )
  }
