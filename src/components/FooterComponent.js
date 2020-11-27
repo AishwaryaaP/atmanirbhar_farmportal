@@ -12,6 +12,8 @@ function Footer(props) {
                         <li><Link to="/aboutus">AboutUs</Link></li>
             
                         <li><Link to="/contactus">Contact</Link></li>
+                        <li><Link to="/policies">Policies&Schemes</Link></li>
+                        <li><Link to="/news">News</Link></li>
                     </ul>
                 </div>
                 <div className="col-7 col-sm-5">

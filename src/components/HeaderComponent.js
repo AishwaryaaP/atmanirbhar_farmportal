@@ -19,7 +19,7 @@ class Header extends Component{
 
     render() {
         return(
-            <div>
+            <div >
             <Jumbotron>
                     <div className="container">
                         <div className="row row-header">
@@ -49,6 +49,13 @@ class Header extends Component{
                             <NavItem>
                                 <NavLink className="nav-link" to='/contactus'><span className="fa fa-address-card fa-lg"></span> Contact Us</NavLink>
                             </NavItem>
+                            <NavItem>
+                                <NavLink className="nav-link" to='/policies'><span className="fa fa-book fa-lg"></span> Policies&Schemes</NavLink>
+                            </NavItem>
+                            <NavItem>
+                                <NavLink className="nav-link" to='/news'><span className="fa fa-search-plus fa-lg"></span>News</NavLink>
+                            </NavItem>
+
                             </Nav>
                         </Collapse>
                     </div>
