@@ -6,8 +6,10 @@ import {Switch,Route,Redirect} from 'react-router-dom';
 import CarouselComponent from './CarousalComp';
 import MapContainer from './MapComponent';
 import About from './AboutUs';
-import {Row,Col} from 'reactstrap';
-import {Map,GoogleApiWrapper,Marker} from 'google-maps-react';
+import Map from './MapComponent';
+import { ProSidebar, Menu, MenuItem, SubMenu } from 'react-pro-sidebar';
+import 'react-pro-sidebar/dist/css/styles.css';
+
 class Main extends Component{
 
  render(){
@@ -16,8 +18,12 @@ class Main extends Component{
   return (
     <>
     <CarouselComponent/>
-      <MapContainer/>  
-            
+    <Map
+    google={this.props.google}
+    center={{lat:18.5204,lng:73.8567}}
+    height='450px'
+    zoom={6} >
+      </Map>     
     </>
     );
  }
