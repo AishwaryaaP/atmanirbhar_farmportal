@@ -48,7 +48,7 @@ a{
 
 .carousel .slide img {
     max-height: 400px;  /* change this to whatever you want */
-    width: 100px;
+    width: auto;
 }
 .center {
   display: block;
@@ -58,14 +58,11 @@ a{
    margin-bottom:10px;
   width: 50%;
 }
-#s1,#s2,#s3,#s4,#s5,#s6{
-  height: wrap-container;
-  width:wrap-container;
-}
 
 body{
   background-color: #98FB98;
 }
+
 
 
 .footer{
