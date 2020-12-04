@@ -5,12 +5,6 @@ object-assign
 */
 
 /*!
-    Copyright (c) 2017 Jed Watson.
-    Licensed under the MIT License (MIT), see
-    http://jedwatson.github.io/classnames
-  */
-
-/*!
   * $script.js JS loader & dependency manager
   * https://github.com/ded/script.js
   * (c) Dustin Diaz 2014 | License MIT
