@@ -7,24 +7,24 @@ import React from 'react';
         <div className="slider-container">
             <Carousel  infiniteLoop useKeyboardArrows autoPlay className="container" >
                 <div>
-                    <img src={process.env.PUBLIC_URL+'/images/crop.jpg'} alt="img1"/>
+                    <img id="s1"src={process.env.PUBLIC_URL+'/images/crop.jpg'} alt="img1"/>
                 </div>
                 <div>
-                    <img src={process.env.PUBLIC_URL+'/images/crop3.jpg'}alt="img2"/>
+                    <img id="s2"src={process.env.PUBLIC_URL+'/images/crop3.jpg'}alt="img2"/>
                 </div>
                
                 <div>
-                    <img src={process.env.PUBLIC_URL+'/images/crop5.jpg'} alt="img3"/>
+                    <img id="s3"src={process.env.PUBLIC_URL+'/images/crop5.jpg'} alt="img3"/>
                 </div>
                 
                 <div>
-                    <img src={process.env.PUBLIC_URL+'/images/crop7.jpeg'}alt="img4" />
+                    <img id="s4"src={process.env.PUBLIC_URL+'/images/crop7.jpeg'}alt="img4" />
                 </div>
                 <div>
-                    <img src={process.env.PUBLIC_URL+'/images/crop6.jpg'} alt="img5"/>
+                    <img id="s5"src={process.env.PUBLIC_URL+'/images/crop6.jpg'} alt="img5"/>
                 </div>
                  <div>
-                    <img src={process.env.PUBLIC_URL+'/images/crop4.jpg'} alt="img6"/>
+                    <img id="s6"src={process.env.PUBLIC_URL+'/images/crop4.jpg'} alt="img6"/>
                 </div>
             </Carousel>
             

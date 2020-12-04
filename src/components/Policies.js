@@ -28,16 +28,16 @@ export default class Policy extends Component{
 			</ul>
 			<div className="container border">
 			<p style={{color:'orange','font-size':'20px'}}><strong>Video Links For the Government initiatives taken for Farmers</strong></p>
-			<iframe  src="https://www.youtube.com/embed/5c8J9cv1oTI" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			<iframe  src="https://www.youtube.com/embed/xkKRb-xG8dc" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			<iframe  src="https://www.youtube.com/embed/AJRuvq06mhk" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			<iframe  src="https://www.youtube.com/embed/T7z3Zg4dPkI" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			<iframe  src="https://www.youtube.com/embed/x1gxLD2ZEnI" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			<iframe  src="https://www.youtube.com/embed/XvORzaanxt8" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			<iframe  src="https://www.youtube.com/embed/Twl4--EiYSM" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			<iframe  src="https://www.youtube.com/embed/QAwMPIyVkhI" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			<iframe  src="https://www.youtube.com/embed/qhj6stgAH9g" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			<iframe  src="https://www.youtube.com/embed/5jM7MDPEJrk" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<iframe  src="https://www.youtube.com/embed/5c8J9cv1oTI" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
+			<iframe  src="https://www.youtube.com/embed/xkKRb-xG8dc" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
+			<iframe  src="https://www.youtube.com/embed/AJRuvq06mhk" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
+			<iframe  src="https://www.youtube.com/embed/T7z3Zg4dPkI" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
+			<iframe  src="https://www.youtube.com/embed/x1gxLD2ZEnI" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
+			<iframe  src="https://www.youtube.com/embed/XvORzaanxt8" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
+			<iframe  src="https://www.youtube.com/embed/Twl4--EiYSM" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
+			<iframe  src="https://www.youtube.com/embed/QAwMPIyVkhI" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
+			<iframe  src="https://www.youtube.com/embed/qhj6stgAH9g" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
+			<iframe  src="https://www.youtube.com/embed/5jM7MDPEJrk" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
 			</div>
 			</div>
 			</>

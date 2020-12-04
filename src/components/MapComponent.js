@@ -214,7 +214,8 @@ onMarkerDragEnd = ( event ) => {
      });   
     }
  render(){
-    const AsyncMap = withScriptjs(
+  
+   const AsyncMap = withScriptjs(
    withGoogleMap(
     props => (
      <GoogleMap google={this.props.google}
@@ -260,8 +261,8 @@ onMarkerDragEnd = ( event ) => {
   const apikey= {
   "s": process.env.REACT_APP_API_KEY
 };
-const url="https://maps.googleapis.com/maps/api/js?&key="+apikey.s+"&libraries=places"
 
+const url="https://maps.googleapis.com/maps/api/js?&key=AIzaSyB445mQbS-Mv9N4pNyi03A5tAqEsXeDXGg&libraries=places"
   if( this.props.center.lat !== undefined ) {
    map = <div>
      <div className="container col-12 col-sm-9">
@@ -311,6 +312,7 @@ const url="https://maps.googleapis.com/maps/api/js?&key="+apikey.s+"&libraries=p
    map = < div className="center" style={{position: 'relative', width: '50vw', height: '100vh'}} />
   }
   return( map )
+  
  }
 }
 export default Map;

@@ -37,10 +37,12 @@ class Contact extends Component{
         [name]:value
      });   
     }
-    handleSubmit(event) {
+    
+    handleSubmit(e){
         console.log('Current State is: ' + JSON.stringify(this.state));
         alert('Current State is: ' + JSON.stringify(this.state));
-        event.preventDefault();
+        e.preventDefault();
+        
     }
     validate(firstname,lastname,telnum,email){
         const errors={
@@ -118,7 +120,7 @@ class Contact extends Component{
                     <h3>Send us Your Feedback</h3>
                 </div>
                 <div className="col-12 col-md-9">
-                    <Form onSubmit={this.handleSubmit}>
+                    <Form onSubmit={this.handleSubmit} action="/submit"method="post">
 
                         <FormGroup row>
                             <Label htmlFor="firstname" md={2}>First Name</Label>
