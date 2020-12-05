@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/atmanirbhar_farmportal/static/css/main.35b4ed8d.chunk.css",
-    "main.js": "/atmanirbhar_farmportal/static/js/main.f6de7396.chunk.js",
-    "main.js.map": "/atmanirbhar_farmportal/static/js/main.f6de7396.chunk.js.map",
+    "main.js": "/atmanirbhar_farmportal/static/js/main.f271203d.chunk.js",
+    "main.js.map": "/atmanirbhar_farmportal/static/js/main.f271203d.chunk.js.map",
     "runtime-main.js": "/atmanirbhar_farmportal/static/js/runtime-main.bacb1de4.js",
     "runtime-main.js.map": "/atmanirbhar_farmportal/static/js/runtime-main.bacb1de4.js.map",
     "static/css/2.c84e98f6.chunk.css": "/atmanirbhar_farmportal/static/css/2.c84e98f6.chunk.css",
     "static/js/2.e3c42f1f.chunk.js": "/atmanirbhar_farmportal/static/js/2.e3c42f1f.chunk.js",
     "static/js/2.e3c42f1f.chunk.js.map": "/atmanirbhar_farmportal/static/js/2.e3c42f1f.chunk.js.map",
     "index.html": "/atmanirbhar_farmportal/index.html",
-    "precache-manifest.f7d9b16c578b8eb1d9396eece8f667cc.js": "/atmanirbhar_farmportal/precache-manifest.f7d9b16c578b8eb1d9396eece8f667cc.js",
+    "precache-manifest.54791baf489894c05266ba1e7a6e53c6.js": "/atmanirbhar_farmportal/precache-manifest.54791baf489894c05266ba1e7a6e53c6.js",
     "service-worker.js": "/atmanirbhar_farmportal/service-worker.js",
     "static/css/2.c84e98f6.chunk.css.map": "/atmanirbhar_farmportal/static/css/2.c84e98f6.chunk.css.map",
     "static/css/main.35b4ed8d.chunk.css.map": "/atmanirbhar_farmportal/static/css/main.35b4ed8d.chunk.css.map",
@@ -22,6 +22,6 @@
     "static/css/2.c84e98f6.chunk.css",
     "static/js/2.e3c42f1f.chunk.js",
     "static/css/main.35b4ed8d.chunk.css",
-    "static/js/main.f6de7396.chunk.js"
+    "static/js/main.f271203d.chunk.js"
   ]
 }
