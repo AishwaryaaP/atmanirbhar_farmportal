@@ -40,7 +40,7 @@ a{
 
 .carousel .slide img {
     max-height: 450px;  /* change this to whatever you want */
-    width: auto;
+    max-width:auto ;
 }
 .center {
   display: block;
@@ -65,4 +65,8 @@ body{
 iframe{
   margin:5px 5px 5px 5px;
   
+}
+.slider-container{
+  width:auto;
+  margin-top: 0px;
 }

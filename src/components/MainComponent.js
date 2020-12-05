@@ -8,6 +8,7 @@ import MapContainer from './MapComponent';
 import About from './AboutUs';
 import Map from './MapComponent';
 import Policy from './Policies';
+import AgriNews from './News'
 
 class Main extends Component{
 
@@ -35,6 +36,7 @@ class Main extends Component{
         <Route exact path="/contactus" component={Contact}/>
         <Route exact path="/aboutus" component={About }/>
         <Route exact path="/policies" component={Policy}/>
+        <Route exact path="/news" component={AgriNews}/>
         <Redirect to="/home"/>      
       </Switch>
       <Footer/>

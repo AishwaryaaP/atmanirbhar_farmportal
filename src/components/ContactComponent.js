@@ -1,7 +1,8 @@
 import React,{Component} from "react";
 import {Breadcrumb,BreadcrumbItem,Button,Form,FormFeedback,FormGroup,Label,Input,Col,Row} from 'reactstrap';
 import {Link} from 'react-router-dom';
-
+import Firebase from 'firebase';
+import firebaseConfig from '../firebase'
 class Contact extends Component{
     constructor(props){
         super(props);
@@ -39,10 +40,21 @@ class Contact extends Component{
     }
     
     handleSubmit(e){
-        console.log('Current State is: ' + JSON.stringify(this.state));
-        alert('Current State is: ' + JSON.stringify(this.state));
-        e.preventDefault();
         
+        e.preventDefault();
+        const db = Firebase.database().ref();
+        var refr=Firebase.database().ref("/Feedback");
+        refr.push({
+            Firstname:this.state.firstname,
+            Lastname:this.state.lastname,
+            Telnum:this.state.telnum,
+            Email:this.state.email,
+            Feedback:this.state.feedback,
+            Agree:this.state.agree,
+            ContactType:this.state.contactType,
+        })
+        
+        window .alert("Data Saved successfully!!!");
     }
     validate(firstname,lastname,telnum,email){
         const errors={

@@ -4,7 +4,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import React from 'react';
  function CarouselComponent() {
     return (
-        <div className="slider-container">
+        <div className="slider-container center">
             <Carousel  infiniteLoop useKeyboardArrows autoPlay className="container" >
                 <div>
                     <img id="s1"src={process.env.PUBLIC_URL+'/images/crop.jpg'} alt="img1"/>
