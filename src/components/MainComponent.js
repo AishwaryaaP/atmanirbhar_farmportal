@@ -9,9 +9,16 @@ import About from './AboutUs';
 import Map from './MapComponent';
 import Policy from './Policies';
 import AgriNews from './News'
-
+import {POLICIES} from './PolicyList';
 class Main extends Component{
+constructor(props){
+    super(props);
+    this.state={
+      policy:POLICIES,
+    }
 
+
+  }
  render(){
 
  const HomePage=() =>{
@@ -35,8 +42,9 @@ class Main extends Component{
         <Route path="/home" component={HomePage}/>
         <Route exact path="/contactus" component={Contact}/>
         <Route exact path="/aboutus" component={About }/>
-        <Route exact path="/policies" component={Policy}/>
+        <Route exact path="/policies" component={()=><Policy policy={this.state.policy}/>}/>
         <Route exact path="/news" component={AgriNews}/>
+       
         <Redirect to="/home"/>      
       </Switch>
       <Footer/>
