@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/atmanirbhar_farmportal/precache-manifest.34346d47a66b57c35f1d1aa2097376b9.js"
+  "/atmanirbhar_farmportal/precache-manifest.40a0ef168f30486f6278179e7deec4ee.js"
 );
 
 self.addEventListener('message', (event) => {
