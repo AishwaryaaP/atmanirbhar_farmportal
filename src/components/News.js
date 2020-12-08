@@ -43,7 +43,7 @@ getArticles(url) {
   return (
     <Container>
       <Header as="h2" style={{ textAlign: "center", margin: 20,'font-size':30 ,color:"brown"}}>
-       Agriculture Related Recent Activities across the Country
+       Agriculture Related Recent Activities across the Globe
       </Header>
       {this.state.articles.length > 0 && <ArticleList articles={this.state.articles} />}
       {<p>Could not fetch any articles. Please try again.</p>}

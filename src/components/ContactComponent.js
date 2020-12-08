@@ -93,9 +93,9 @@ class Contact extends Component{
         <div className="row">
         	  <Breadcrumb>
                 
-                    <BreadcrumbItem><Link to="/home" style={{color:'blue'}}>Home</Link></BreadcrumbItem>
-                    <BreadcrumbItem active style={{color:'red'}}>ContactUs</BreadcrumbItem>
-                </Breadcrumb>
+                <BreadcrumbItem><Link to="/home" style={{color:'blue'}}>Home</Link></BreadcrumbItem>
+                <BreadcrumbItem active style={{color:'red'}}>ContactUs</BreadcrumbItem>
+               </Breadcrumb>
 
             
            </div>
@@ -116,9 +116,7 @@ class Contact extends Component{
                             krishiseva@agri.net</a>
                     </address>
                 </div>
-                <div className="col-12 col-sm-6 offset-sm-1">
-                    <h5>Map of our Location</h5>
-                </div>
+            
                 <div className="col-12 col-sm-11 offset-sm-1">
                     <div className="btn-group" role="group">
                         <a role="button" className="btn btn-primary" href="tel:+85212345678"><i className="fa fa-phone"></i> Call</a>

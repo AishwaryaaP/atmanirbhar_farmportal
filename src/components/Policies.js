@@ -8,7 +8,7 @@ const Policy=(props)=>{
 		const disp =props.policy.map((po)=>{
 	return(
 		<div key={po.id} className="col-12 col-md-5 m-1">
-		<Card style={{'height':600,'width':470}}>
+		<Card style={{'height':600,'width':470,'background-color':"#d0efff"}}>
 		<CardTitle className="center">{po.title}</CardTitle>
 		<CardBody>{po.des}
 		<CardText  style={{color:'red','margin-left':10}}>Check for more details - <a style={{'color':'blue'}} target="_blank" href={po.url}>{po.url}</a><br/>YouTube Video-</CardText>

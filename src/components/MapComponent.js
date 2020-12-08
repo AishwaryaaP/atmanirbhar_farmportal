@@ -1,11 +1,17 @@
 import React ,{Component} from 'react'
 import { withGoogleMap, GoogleMap, withScriptjs, InfoWindow, Marker } from "react-google-maps";
 import Geocode from "react-geocode";
-import {Form,FormGroup,Label,Input,Col,Row} from 'reactstrap';
+import {Form,FormGroup,Label,Input,Col,Row,Button} from 'reactstrap';
 import Autocomplete from 'react-google-autocomplete';
+import WeekContainer from './Weather';
+import Policy from './Policies';
 Geocode.setApiKey(process.env.REACT_APP_API_KEY);
 Geocode.enableDebug();
-
+function a(){
+  return(
+    <div>hiii</div>
+    );
+}
 class Map extends Component{
     constructor( props ){
   super( props );
@@ -24,10 +30,12 @@ class Map extends Component{
     }
   }
   this.handleInputChange=this.handleInputChange.bind(this);
+ this.handleSubmit=this.handleSubmit.bind(this);
  }
  /**
   * Get the current address from the default map position and set those values in the state
   */
+
  componentDidMount() {
   Geocode.fromLatLng( this.state.mapPosition.lat , this.state.mapPosition.lng ).then(
    response => {
@@ -51,6 +59,7 @@ class Map extends Component{
     console.error(error);
    }
   );
+
  };
  /**
   * Component should only update ( meaning re-render ), when the user selects the address, or drags the pin
@@ -213,6 +222,12 @@ onMarkerDragEnd = ( event ) => {
         [name]:value
      });   
     }
+
+
+  handleSubmit(event)
+  {
+    a();
+  }
  render(){
   
    const AsyncMap = withScriptjs(
@@ -267,11 +282,12 @@ const url="https://maps.googleapis.com/maps/api/js?&key=AIzaSyB445mQbS-Mv9N4pNyi
    map = <div>
      <div className="container col-12 col-sm-9">
 
-      <FormGroup row>
+    
+      <FormGroup row  >
       <Col md={{size:12,offset:2}}style={{color:'blue','font-size':'25px'}}><strong>Enter Your State and District</strong></Col>
       </FormGroup>
   
-      <FormGroup row>
+      <FormGroup row onSubmit={this.handleSubmit}>
        <Label htmlFor="" md={{size:1,offset:2}}><strong>City</strong></Label>
         <Col md={{size:3,offset:-6}}>
          <Input type="text" id="city" name="city" placeholder="City Name" onChange={ this.handleInputChange }  value={ this.state.city }/>
@@ -291,6 +307,10 @@ const url="https://maps.googleapis.com/maps/api/js?&key=AIzaSyB445mQbS-Mv9N4pNyi
         <Col md={{size:3,offset:-6}}>
        <Input type="text" name="address" id="address" onChange={ this.handleInputChange } placeholder="Address" value={ this.state.address }/>
         </Col>  
+         <Col md={{size:10,offset:2}}>
+                        <Button type="submit" color="primary">Proceed
+                        </Button>
+                        </Col>
       </FormGroup>
      </div>
 
