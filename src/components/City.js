@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {Row, Col, FormControl, Button} from 'react-bootstrap';
+import {Row, Col,Card,Modal, FormControl, Button} from 'react-bootstrap';
 
 const CitySelector = ({onSearch}) => {
     const [city, setCity] = useState('');
@@ -7,25 +7,24 @@ const CitySelector = ({onSearch}) => {
     return (
       <>
       <div  className="container">
-        <Row>
-          <Col>
-            <h2>Search your city</h2>
-          </Col>
-        </Row>
+        <Card>
         <Row style={{'margin':15}}>
+    
+        <span> District</span>
           <Col xs={4}>
             <FormControl
-              placeholder="Enter city"
+              placeholder="Enter District"
               onChange={(event) => setCity(event.target.value)}
               value={city}
             />
           </Col>
        
           <Col>
-      
+            <Button style={{'margin-right':15}} >Recommend Crop</Button>
             <Button onClick={() => onSearch(city)}>Check Weather</Button>
           </Col>
         </Row>
+        </Card>
         </div>
       </>
           );

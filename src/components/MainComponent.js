@@ -1,4 +1,5 @@
 import React ,{Component} from 'react';
+import {Link}from 'react-router-dom';
 import Header from './HeaderComponent';
 import Footer from './FooterComponent';
 import Contact from './ContactComponent';
@@ -8,12 +9,22 @@ import MapContainer from './MapComponent';
 import About from './AboutUs';
 import Map from './MapComponent';
 import Policy from './Policies';
-import AgriNews from './News'
+import AgriNews from './News';
+import Crop from './CropRecommend'
 import {POLICIES} from './PolicyList';
-import WeatherCard from './Weather2.js';
-import CitySelector from './City';
-import UseFetch from '../hooks/UseFetch';
-import WeatherList from './WeatherList';
+
+
+function RenderCrop({onClick})
+{
+  return(
+
+    <div className="container border">
+      <div className="center"style={{"font-size":20}}><strong> Select Your State </strong></div>
+      <Link to="/Crop"><img src={process.env.PUBLIC_URL+'/images/india.jpg'} className="center"width="auto" height="600px"alt="india map"/></Link>
+    </div> 
+
+    );
+}
 class Main extends Component{
 constructor(props){
     super(props);
@@ -26,18 +37,11 @@ constructor(props){
  render(){
 
  const HomePage=() =>{
-  const {data, error, isLoading, setUrl} = UseFetch();
-   const getContent = () => {
-    if(error) return <div className="container"><h2>Error when fetching: {error}</h2></div>
-    if(!data && isLoading) return <div className="container"><h3>LOADING...</h3></div>
-    if(!data) return null;
-    return <WeatherList weathers={data.list} />
-  };
+  
   return (
     <>
     <CarouselComponent/>
-    <CitySelector onSearch={(city) => setUrl(`http://api.openweathermap.org/data/2.5/forecast?q=${city}&units=imperial&appid=c04c1d8e05862af3d846deafcb7a4e4f`)} />
-    {getContent()}
+    <RenderCrop onClick/>
     </>
     );
  }
@@ -51,6 +55,7 @@ constructor(props){
         <Route exact path="/aboutus" component={About }/>
         <Route exact path="/policies" component={()=><Policy policy={this.state.policy}/>}/>
         <Route exact path="/news" component={AgriNews}/>
+        <Route exact path="/crop" component={Crop}/>
        
         <Redirect to="/home"/>      
       </Switch>
