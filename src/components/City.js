@@ -1,11 +1,17 @@
 import React, {useState} from 'react';
 import {Row, Col,Card,Modal, FormControl, Button} from 'react-bootstrap';
+import {CardTitle} from 'reactstrap';
+import {Switch,Route,Redirect} from 'react-router-dom';
+import CropP from './Croppredict';
+import {Link}from 'react-router-dom';
 
 const CitySelector = ({onSearch}) => {
-    const [city, setCity] = useState('');
-
+   
+    const [city,setCity]=useState('');
+  
     return (
       <>
+        
       <div  className="container">
         <Card>
         <Row style={{'margin':15}}>
@@ -18,12 +24,14 @@ const CitySelector = ({onSearch}) => {
               value={city}
             />
           </Col>
-       
+         
           <Col>
-            <Button style={{'margin-right':15}} >Recommend Crop</Button>
-            <Button onClick={() => onSearch(city)}>Check Weather</Button>
-          </Col>
+  
+            <Button onClick={() => onSearch(city)}> Recommend Crop</Button>
+          </Col>  
         </Row>
+      
+        
         </Card>
         </div>
       </>
