@@ -25,6 +25,13 @@
 * Weather reports
 * Maps
 
+### Future Scope 
+1. Language Translation API for the website.
+2. Dataset to bet appended from the user after their individual experience for an efficient algorithm.
+3. Customized timeline for each user according to all the crops he/she chooses.
+4. Inspirational DIYs for quick urban terrace farming.
+5. A local buy and sell Zero-Merchant online Grains/ Vegetables/ Fruits mart for a better income to the local farmers. 
+
 #### To-do list:
 * Farming news API
 * Google maps API
