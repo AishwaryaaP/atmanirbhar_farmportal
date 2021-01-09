@@ -52,7 +52,7 @@ Tejinderpal Singh
 Atharva Patrudkar
 
 ## Image
-![](./image1.jpg)
+![](./Screenshot (782).png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
